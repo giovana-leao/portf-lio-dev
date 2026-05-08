@@ -23,7 +23,7 @@
   --title-sm: 700 16px/120% var(--font-family-asap);
 
   --font-family-inconsolata: 'Inconsolata', monospace;
-  --subtitle: 400 24px/120% var(--font-family-inconsolata);
+  --subtitle: 400 20px/120% var(--font-family-inconsolata);
 
   --font-family-maven-pro: 'Maven Pro', sans-serif;
   --text-md: 400 16px/140% var(--font-family-maven-pro);
@@ -34,4 +34,20 @@
 body {
   font: var(--text-md);
   background-color: var(--gray-400);
+  max-width: 1366px;
+  max-height: 2934px;
+
+}
+
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+}
+.grid-flow-col {
+  grid-auto-flow: column;
 }

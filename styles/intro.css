@@ -6,6 +6,8 @@ background-size: cover;
 background-position: center;
 height: 750px;
 width: 1366px;
+position: relative;
+
 }
 
 #info {
@@ -35,6 +37,11 @@ width: 680px;
   font: var(--subtitle);
   color: var(--gray-200);
 }
+
+#red {
+  color: var(--red);
+}
+
 #title {
   padding: 8px;
   font: var(--title-lg);
@@ -86,4 +93,15 @@ article {
   background-color: var(--gray-500);
   flex-direction: row;
   margin-top: 80px;
+}
+.scrool {
+  position: absolute;
+  margin-top: 94px;
+  bottom: 57px; /* Distância fixa da borda inferior */
+  left: 50%;
+  transform: translateX(-50%); /* Técnica clássica para centralizar horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10; /* Garante que fique acima de outros elementos de fundo */
 }

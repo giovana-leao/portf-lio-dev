@@ -1,0 +1,12 @@
+#projects{
+
+display: flex;
+justify-content: center;
+background-color: var(--gray-900);
+background-size: cover;
+background-position: center;
+height: 917px;
+width: 1366px;
+position: relative;
+
+}

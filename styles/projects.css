@@ -35,7 +35,6 @@
   box-sizing: border-box;
   background-color: var(--gray-400);
   border-radius: 12px;
-  height: 275px;
   padding: 12px;
   display: flex;
   flex-direction: column;

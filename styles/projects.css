@@ -1,12 +1,22 @@
 #projects{
+display: grid;
+background-color: var(--gray-500);
+padding: 72px 120px 144px;
 
-display: flex;
-justify-content: center;
-background-color: var(--gray-900);
-background-size: cover;
 background-position: center;
-height: 917px;
-width: 1366px;
+
+max-width: 1040px;
+margin-inline: auto;
 position: relative;
 
+}
+.projects-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.section-subtitle {
+  font: var(--subtitle);
+  color: var(--red);
+  margin-bottom: 8px;
 }

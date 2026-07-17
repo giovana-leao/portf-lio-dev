@@ -4,8 +4,8 @@ justify-content: center;
 background-image: url(../assets/images/Background_Intro.png);
 background-size: cover;
 background-position: center;
-height: 750px;
-width: 1366px;
+max-width: 1040px;
+margin-inline: auto;
 position: relative;
 
 }

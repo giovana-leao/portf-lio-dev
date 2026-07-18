@@ -1,5 +1,5 @@
 #contacts {
-  background-image: url(./assets/images/Background_Contacts.png);
+  background-image: url(../assets/images/Background_Contacts.png);
   padding: 128px 120px 120px 200px;
   background-size: cover;
 }
@@ -57,15 +57,15 @@
   border-color: var(--blue);
   transition: border-color 0.2s;
 }
-.contact-card:hover .linkedin-icon { 
-  content: url(./assets/icons/LinkedinLogoBlue.png);
+.contact-card:hover .linkedin-icon {
+  content: url(../assets/icons/LinkedinLogoBlue.png);
 }
-.contact-card:hover .instagram-icon { 
-  content: url(./assets/icons/InstagramLogoBlue.png);
+.contact-card:hover .instagram-icon {
+  content: url(../assets/icons/InstagramLogoBlue.png);
 }
-.contact-card:hover .github-icon { 
-  content: url(./assets/icons/GithubLogoBlue.png);
+.contact-card:hover .github-icon {
+  content: url(../assets/icons/GithubLogoBlue.png);
 }
-.contact-card:hover .email-icon { 
-  content: url(./assets/icons/EnvelopeSimpleBlue.png);
+.contact-card:hover .email-icon {
+  content: url(../assets/icons/EnvelopeSimpleBlue.png);
 }

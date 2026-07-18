@@ -18,7 +18,7 @@
   margin-bottom: 8px;
 }
 .contacts-header h4 {
-  font: var(--font-family-asap);
+  font: var(--text-md);
   color: var(--gray-200);
 }
 .contacts-list {
@@ -36,6 +36,7 @@
   border-radius: 8px;
   background-color: var(--gray-400);
   text-decoration: none;
+  border: 1.5px solid transparent;
 }
 .contact-card img {
   width: 28px;
@@ -51,4 +52,20 @@
   width: 20px;
   height: 20px;
   margin-left: auto;
+}
+.contact-card:hover {
+  border-color: var(--blue);
+  transition: border-color 0.2s;
+}
+.contact-card:hover .linkedin-icon { 
+  content: url(/assets/icons/LinkedinLogoBlue.png);
+}
+.contact-card:hover .instagram-icon { 
+  content: url(/assets/icons/InstagramLogoBlue.png);
+}
+.contact-card:hover .github-icon { 
+  content: url(/assets/icons/GithubLogoBlue.png);
+}
+.contact-card:hover .email-icon { 
+  content: url(/assets/icons/EnvelopeSimpleBlue.png);
 }

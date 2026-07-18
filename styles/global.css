@@ -26,8 +26,8 @@
   --subtitle: 400 20px/120% var(--font-family-inconsolata);
 
   --font-family-maven-pro: 'Maven Pro', sans-serif;
-  --text-md: 400 16px/140% var(--font-family-maven-pro);
-  --text-sm: 400 14px/140% var(--font-family-maven-pro);
+  --text-md: 400 16px/140% var(--font-family-maven-pro-m);
+  --text-sm: 400 14px/140% var(--font-family-maven-pro-s);
 
 }
 
